@@ -30,9 +30,9 @@ function TodoApp() {
                     type="text"
                     value={task}
                     onChange={handleInputChange}
-                    placeholder="Enter a task"
+                    placeholder="Masukkan kegiatan"
                 />
-                <button onClick={handleAddTask}>Add Task</button>
+                <button onClick={handleAddTask}>Simpan</button>
             </div>
 
             <TaskList tasks={tasks} removeTask={handleRemoveTask} />
